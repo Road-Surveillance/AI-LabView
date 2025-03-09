@@ -3,6 +3,7 @@ import torch
 import os
 import sys
 import argparse
+import shutil  # for removing directories
 from typing import List
 import cv2
 
@@ -113,7 +114,8 @@ def detect_and_export_from_path(image_path, obj_detector):
       1. Runs detection using object.pt to detect vehicles and license plates.
       2. Ignores any detections labeled as "person."
       3. Overlays vehicle detection bounding boxes and labels on the image.
-      4. For each detection labeled as "license plate," crops the region and saves it to the folder "LPs."
+      4. For each detection labeled as a license plate, crops the region and saves it to the folder "LPs."
+      5. For all other detections (vehicle types), crops the region and saves it to the folder "Vehicle."
     """
     image = cv2.imread(image_path)
     if image is None:
@@ -123,13 +125,17 @@ def detect_and_export_from_path(image_path, obj_detector):
     detections, resized_img = obj_detector.detect(image.copy())
     output_img = resized_img.copy()
 
-    # Ensure output directories exist
+    # Ensure output directories exist (remove if they exist)
     out_dir = "out"
     lp_dir = "LPs"
-    os.makedirs(out_dir, exist_ok=True)
-    os.makedirs(lp_dir, exist_ok=True)
+    vehicle_dir = "Vehicle"
 
-    print(detections)
+    for folder in [lp_dir, vehicle_dir]:
+        if os.path.exists(folder):
+            shutil.rmtree(folder)
+        os.makedirs(folder, exist_ok=True)
+
+    os.makedirs(out_dir, exist_ok=True)
 
     for idx, det in enumerate(detections):
         label, conf, box = det
@@ -139,7 +145,7 @@ def detect_and_export_from_path(image_path, obj_detector):
 
         x1, y1, x2, y2 = map(int, box)
 
-        # Draw bounding box and label on output image (for vehicle types)
+        # Draw bounding box and label on output image
         cv2.rectangle(output_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
         cv2.putText(
             output_img,
@@ -151,18 +157,26 @@ def detect_and_export_from_path(image_path, obj_detector):
             2,
         )
 
-        # If this detection is a license plate, crop and export it
-        if label.lower() in [
-            "square license plate",
-            "rectangle license plate",
-        ]:  # adjust according to your model's label
-            plate_crop = resized_img[y1:y2, x1:x2].copy()
-            lp_filename = os.path.join(
+        # Crop the detected region
+        crop_img = resized_img[y1:y2, x1:x2].copy()
+
+        # Save based on the detection label:
+        # If the detection is a license plate, save to LPs folder.
+        if label.lower() in ["square license plate", "rectangle license plate"]:
+            filename = os.path.join(
                 lp_dir,
                 f"{os.path.splitext(os.path.basename(image_path))[0]}_LP_{idx}.jpg",
             )
-            cv2.imwrite(lp_filename, plate_crop)
-            print(f"Saved license plate crop to {lp_filename}")
+            cv2.imwrite(filename, crop_img)
+            print(f"Saved license plate crop to {filename}")
+        else:
+            # Otherwise, treat it as a vehicle detection and save to Vehicle folder.
+            filename = os.path.join(
+                vehicle_dir,
+                f"{os.path.splitext(os.path.basename(image_path))[0]}_Vehicle_{idx}.jpg",
+            )
+            cv2.imwrite(filename, crop_img)
+            print(f"Saved vehicle crop to {filename}")
 
     # Save and display the final annotated image
     out_path = os.path.join(out_dir, os.path.basename(image_path))
