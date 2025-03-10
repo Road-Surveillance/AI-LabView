@@ -4,6 +4,19 @@
 
 This Python code implements a detection pipeline based on a YOLOv5 model to detect vehicles and license plates in images. The script is designed for integration with LabVIEW. LabVIEW can call this script by passing an image file path, and then use the JSON output (detailed below) to overlay detections and access cropped images.
 
+## How to Run
+
+1. **Virtual Environement**
+   ```bash
+   python -m venv venv
+   ```
+3. **Install Dependencies:**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Command-Line Execution:**  
+   You can run the script directly or call the function ```detect_and_export_json```
+   
 ## Inner Workings
 
 ### 1. Image Loading and Preprocessing
