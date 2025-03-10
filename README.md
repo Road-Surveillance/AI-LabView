@@ -6,18 +6,24 @@ This Python code implements a detection pipeline based on a YOLOv5 model to dete
 
 ## How to Run
 
+
 > [!CAUTION]
 > Use Python 3.9 !
+
 
 1. **Virtual Environement**
    ```bash
    python -m venv venv
    ```
-3. **Install Dependencies:**  
+2. **Install Dependencies:**  
    ```bash
    pip install -r requirements.txt
    ```
-2. **Command-Line Execution:**  
+3. **Install Dependencies:**  
+   ```bash
+   cd .\testing\
+   ```
+4. **Command-Line Execution:**  
    You can run the script directly or call the function ```detect_and_export_json```
    
 ## Inner Workings
