@@ -1,0 +1,1793 @@
+{
+  "annotated_image": "out\\vn.jpg",
+  "detections": [
+    {
+      "label": "car",
+      "confidence": 0.9613229632377625,
+      "bbox": [
+        663,
+        867,
+        844,
+        1034
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_0.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.957257091999054,
+      "bbox": [
+        624,
+        702,
+        742,
+        811
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_1.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9369102716445923,
+      "bbox": [
+        32,
+        706,
+        112,
+        761
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_2.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9349675178527832,
+      "bbox": [
+        382,
+        779,
+        538,
+        896
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_4.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9256042242050171,
+      "bbox": [
+        734,
+        719,
+        774,
+        778
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_5.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9221252799034119,
+      "bbox": [
+        1101,
+        1034,
+        1212,
+        1153
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_8.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9215219020843506,
+      "bbox": [
+        581,
+        735,
+        613,
+        785
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_9.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9156118035316467,
+      "bbox": [
+        774,
+        769,
+        807,
+        833
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_10.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9144419431686401,
+      "bbox": [
+        611,
+        670,
+        643,
+        721
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_11.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9107149839401245,
+      "bbox": [
+        246,
+        1037,
+        378,
+        1143
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_14.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9093554019927979,
+      "bbox": [
+        824,
+        910,
+        882,
+        999
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_16.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9072253704071045,
+      "bbox": [
+        644,
+        511,
+        729,
+        569
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_17.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9026015996932983,
+      "bbox": [
+        798,
+        589,
+        874,
+        654
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_18.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9013288021087646,
+      "bbox": [
+        793,
+        719,
+        826,
+        779
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_19.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8956778049468994,
+      "bbox": [
+        922,
+        861,
+        990,
+        945
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_21.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.89383864402771,
+      "bbox": [
+        331,
+        829,
+        370,
+        902
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_22.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8916407227516174,
+      "bbox": [
+        82,
+        996,
+        205,
+        1106
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_24.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.8894786238670349,
+      "bbox": [
+        372,
+        1258,
+        393,
+        1278
+      ],
+      "crop_path": "LPs\\vn_license_plate_26.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8853604793548584,
+      "bbox": [
+        679,
+        649,
+        712,
+        698
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_27.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8805829882621765,
+      "bbox": [
+        590,
+        588,
+        617,
+        632
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_32.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8799489140510559,
+      "bbox": [
+        628,
+        1071,
+        684,
+        1185
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_33.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8748090863227844,
+      "bbox": [
+        241,
+        930,
+        335,
+        1025
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_41.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.8717336654663086,
+      "bbox": [
+        245,
+        987,
+        262,
+        1002
+      ],
+      "crop_path": "LPs\\vn_license_plate_43.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "rectangle license plate",
+      "confidence": 0.8682103753089905,
+      "bbox": [
+        780,
+        1005,
+        816,
+        1017
+      ],
+      "crop_path": "LPs\\vn_license_plate_44.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8671650886535645,
+      "bbox": [
+        541,
+        566,
+        563,
+        607
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_45.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8659345507621765,
+      "bbox": [
+        645,
+        628,
+        673,
+        676
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_46.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8647556900978088,
+      "bbox": [
+        544,
+        681,
+        578,
+        734
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_48.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8411867618560791,
+      "bbox": [
+        0,
+        1114,
+        65,
+        1200
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_56.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.8387673497200012,
+      "bbox": [
+        525,
+        892,
+        539,
+        903
+      ],
+      "crop_path": "LPs\\vn_license_plate_57.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8359360694885254,
+      "bbox": [
+        756,
+        633,
+        790,
+        678
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_58.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8351982831954956,
+      "bbox": [
+        639,
+        835,
+        672,
+        905
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_59.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8273162841796875,
+      "bbox": [
+        565,
+        954,
+        624,
+        1050
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_63.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.8195052742958069,
+      "bbox": [
+        430,
+        921,
+        446,
+        933
+      ],
+      "crop_path": "LPs\\vn_license_plate_65.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8151181936264038,
+      "bbox": [
+        748,
+        558,
+        768,
+        583
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_69.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8106873631477356,
+      "bbox": [
+        496,
+        494,
+        513,
+        521
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_70.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.806831955909729,
+      "bbox": [
+        788,
+        847,
+        799,
+        858
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_71.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8065869212150574,
+      "bbox": [
+        525,
+        547,
+        546,
+        584
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_72.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.8040814399719238,
+      "bbox": [
+        821,
+        649,
+        890,
+        700
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_74.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7906578779220581,
+      "bbox": [
+        520,
+        852,
+        580,
+        925
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_78.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.789529025554657,
+      "bbox": [
+        970,
+        807,
+        1025,
+        873
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_79.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.7866494655609131,
+      "bbox": [
+        570,
+        1005,
+        588,
+        1019
+      ],
+      "crop_path": "LPs\\vn_license_plate_80.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7843909859657288,
+      "bbox": [
+        712,
+        592,
+        741,
+        637
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_81.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.7794072031974792,
+      "bbox": [
+        2,
+        944,
+        147,
+        1125
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_86.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7720866203308105,
+      "bbox": [
+        1151,
+        829,
+        1273,
+        908
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_89.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.7687467932701111,
+      "bbox": [
+        622,
+        650,
+        630,
+        658
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_91.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.7680091857910156,
+      "bbox": [
+        926,
+        905,
+        940,
+        917
+      ],
+      "crop_path": "LPs\\vn_license_plate_92.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.7678753137588501,
+      "bbox": [
+        590,
+        712,
+        599,
+        720
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_93.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.7670565843582153,
+      "bbox": [
+        708,
+        675,
+        717,
+        683
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_95.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7653660774230957,
+      "bbox": [
+        1173,
+        597,
+        1198,
+        632
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_97.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.7650467157363892,
+      "bbox": [
+        835,
+        775,
+        846,
+        786
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_98.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.7550950050354004,
+      "bbox": [
+        1052,
+        1133,
+        1075,
+        1151
+      ],
+      "crop_path": "LPs\\vn_license_plate_103.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7517709136009216,
+      "bbox": [
+        629,
+        589,
+        655,
+        626
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_104.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7440775036811829,
+      "bbox": [
+        660,
+        791,
+        708,
+        845
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_105.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7399572134017944,
+      "bbox": [
+        568,
+        499,
+        607,
+        526
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_107.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.7359901666641235,
+      "bbox": [
+        803,
+        699,
+        813,
+        709
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_108.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7317649126052856,
+      "bbox": [
+        944,
+        735,
+        995,
+        793
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_109.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7220918536186218,
+      "bbox": [
+        673,
+        581,
+        703,
+        622
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_110.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.7181630730628967,
+      "bbox": [
+        737,
+        807,
+        777,
+        870
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_111.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.71405029296875,
+      "bbox": [
+        746,
+        785,
+        756,
+        795
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_113.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.7063512206077576,
+      "bbox": [
+        785,
+        747,
+        794,
+        756
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_114.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.6960169672966003,
+      "bbox": [
+        692,
+        634,
+        699,
+        641
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_118.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.6956550478935242,
+      "bbox": [
+        566,
+        563,
+        587,
+        600
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_119.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.6844564080238342,
+      "bbox": [
+        817,
+        792,
+        874,
+        864
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_121.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.6810789704322815,
+      "bbox": [
+        1211,
+        604,
+        1237,
+        636
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_122.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.6788113713264465,
+      "bbox": [
+        1213,
+        706,
+        1271,
+        782
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_123.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.6696261167526245,
+      "bbox": [
+        409,
+        848,
+        429,
+        865
+      ],
+      "crop_path": "LPs\\vn_license_plate_126.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.662297785282135,
+      "bbox": [
+        656,
+        614,
+        663,
+        620
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_129.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.6621428728103638,
+      "bbox": [
+        546,
+        706,
+        557,
+        714
+      ],
+      "crop_path": "LPs\\vn_license_plate_130.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "truck",
+      "confidence": 0.6465412378311157,
+      "bbox": [
+        317,
+        670,
+        465,
+        813
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_133.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.6386919021606445,
+      "bbox": [
+        595,
+        473,
+        609,
+        495
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_134.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.6361387968063354,
+      "bbox": [
+        1126,
+        1012,
+        1139,
+        1025
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_135.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.6277337074279785,
+      "bbox": [
+        885,
+        568,
+        915,
+        604
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_136.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.6213102340698242,
+      "bbox": [
+        745,
+        695,
+        757,
+        705
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_137.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.6163520216941833,
+      "bbox": [
+        568,
+        898,
+        580,
+        908
+      ],
+      "crop_path": "LPs\\vn_license_plate_139.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.6048516631126404,
+      "bbox": [
+        509,
+        594,
+        516,
+        602
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_140.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.5985111594200134,
+      "bbox": [
+        701,
+        610,
+        708,
+        617
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_142.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.5877221822738647,
+      "bbox": [
+        845,
+        842,
+        857,
+        853
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_144.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.5872499942779541,
+      "bbox": [
+        43,
+        1145,
+        63,
+        1163
+      ],
+      "crop_path": "LPs\\vn_license_plate_145.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.5763680338859558,
+      "bbox": [
+        495,
+        566,
+        517,
+        597
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_146.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.569943904876709,
+      "bbox": [
+        972,
+        841,
+        988,
+        852
+      ],
+      "crop_path": "LPs\\vn_license_plate_148.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.5692718029022217,
+      "bbox": [
+        753,
+        603,
+        760,
+        610
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_149.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.5687079429626465,
+      "bbox": [
+        1150,
+        1008,
+        1165,
+        1022
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_150.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.5645661354064941,
+      "bbox": [
+        359,
+        1113,
+        375,
+        1128
+      ],
+      "crop_path": "LPs\\vn_license_plate_151.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.548986554145813,
+      "bbox": [
+        155,
+        1173,
+        314,
+        1280
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_153.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.5441374778747559,
+      "bbox": [
+        594,
+        563,
+        602,
+        571
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_154.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.5420946478843689,
+      "bbox": [
+        757,
+        570,
+        765,
+        576
+      ],
+      "crop_path": "LPs\\vn_license_plate_155.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.536767840385437,
+      "bbox": [
+        548,
+        556,
+        554,
+        563
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_156.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.5122184157371521,
+      "bbox": [
+        681,
+        765,
+        691,
+        775
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_157.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.5116918683052063,
+      "bbox": [
+        1213,
+        747,
+        1227,
+        757
+      ],
+      "crop_path": "LPs\\vn_license_plate_158.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.5040277242660522,
+      "bbox": [
+        641,
+        570,
+        664,
+        600
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_160.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.4909866750240326,
+      "bbox": [
+        559,
+        664,
+        569,
+        672
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_162.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.4854945242404938,
+      "bbox": [
+        771,
+        614,
+        778,
+        621
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_163.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.4704015851020813,
+      "bbox": [
+        619,
+        496,
+        637,
+        519
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_165.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.46075645089149475,
+      "bbox": [
+        1091,
+        755,
+        1130,
+        824
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_167.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.44701722264289856,
+      "bbox": [
+        750,
+        662,
+        758,
+        670
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_169.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.44697245955467224,
+      "bbox": [
+        769,
+        530,
+        792,
+        563
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_170.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.40495485067367554,
+      "bbox": [
+        1093,
+        778,
+        1122,
+        819
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_175.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.39539772272109985,
+      "bbox": [
+        923,
+        720,
+        973,
+        768
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_176.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.36728477478027344,
+      "bbox": [
+        646,
+        664,
+        654,
+        672
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_177.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.36641544103622437,
+      "bbox": [
+        1213,
+        933,
+        1280,
+        1061
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_178.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.36568230390548706,
+      "bbox": [
+        1119,
+        994,
+        1132,
+        1007
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_179.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.36185356974601746,
+      "bbox": [
+        674,
+        791,
+        725,
+        848
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_180.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.3599128723144531,
+      "bbox": [
+        721,
+        570,
+        731,
+        579
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_181.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.3544784486293793,
+      "bbox": [
+        721,
+        569,
+        728,
+        576
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_182.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.3173864185810089,
+      "bbox": [
+        415,
+        865,
+        461,
+        954
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_185.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.3013745844364166,
+      "bbox": [
+        389,
+        661,
+        443,
+        697
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_190.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.29506608843803406,
+      "bbox": [
+        727,
+        572,
+        735,
+        579
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_192.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.29214954376220703,
+      "bbox": [
+        743,
+        693,
+        755,
+        703
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_194.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.29203134775161743,
+      "bbox": [
+        729,
+        574,
+        736,
+        580
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_195.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.28107157349586487,
+      "bbox": [
+        547,
+        704,
+        563,
+        715
+      ],
+      "crop_path": "LPs\\vn_license_plate_198.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.268375039100647,
+      "bbox": [
+        693,
+        561,
+        699,
+        568
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_200.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.26656031608581543,
+      "bbox": [
+        775,
+        875,
+        821,
+        922
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_201.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.25149938464164734,
+      "bbox": [
+        627,
+        567,
+        659,
+        608
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_205.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.23408447206020355,
+      "bbox": [
+        695,
+        627,
+        717,
+        656
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_207.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.23386390507221222,
+      "bbox": [
+        740,
+        775,
+        804,
+        840
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_208.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.2336634248495102,
+      "bbox": [
+        500,
+        576,
+        508,
+        582
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_209.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.21619738638401031,
+      "bbox": [
+        532,
+        553,
+        556,
+        597
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_211.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.21327970921993256,
+      "bbox": [
+        586,
+        541,
+        610,
+        592
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_212.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.2086239904165268,
+      "bbox": [
+        1096,
+        793,
+        1111,
+        803
+      ],
+      "crop_path": "LPs\\vn_license_plate_213.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.2065759152173996,
+      "bbox": [
+        566,
+        992,
+        596,
+        1033
+      ],
+      "crop_path": "LPs\\vn_license_plate_214.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.20370984077453613,
+      "bbox": [
+        740,
+        689,
+        759,
+        707
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_215.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.20250742137432098,
+      "bbox": [
+        770,
+        583,
+        777,
+        589
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_216.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.19588004052639008,
+      "bbox": [
+        597,
+        580,
+        605,
+        587
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_217.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.1937362402677536,
+      "bbox": [
+        747,
+        659,
+        755,
+        668
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_218.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.19069017469882965,
+      "bbox": [
+        650,
+        1055,
+        666,
+        1068
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_219.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.18790194392204285,
+      "bbox": [
+        592,
+        527,
+        599,
+        532
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_220.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.1863466054201126,
+      "bbox": [
+        949,
+        765,
+        960,
+        773
+      ],
+      "crop_path": "LPs\\vn_license_plate_221.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.18520517647266388,
+      "bbox": [
+        547,
+        556,
+        556,
+        564
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_222.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.17562712728977203,
+      "bbox": [
+        718,
+        564,
+        740,
+        594
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_223.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.17523328959941864,
+      "bbox": [
+        701,
+        695,
+        733,
+        745
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_224.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.1632853001356125,
+      "bbox": [
+        1177,
+        618,
+        1185,
+        624
+      ],
+      "crop_path": "LPs\\vn_license_plate_226.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.16246892511844635,
+      "bbox": [
+        968,
+        587,
+        1004,
+        630
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_228.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.15892815589904785,
+      "bbox": [
+        1039,
+        1095,
+        1087,
+        1180
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_229.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.15836620330810547,
+      "bbox": [
+        752,
+        662,
+        760,
+        671
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_230.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.15198278427124023,
+      "bbox": [
+        1127,
+        1003,
+        1139,
+        1018
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_231.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.1425396054983139,
+      "bbox": [
+        641,
+        591,
+        649,
+        598
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_234.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.13538643717765808,
+      "bbox": [
+        420,
+        896,
+        455,
+        946
+      ],
+      "crop_path": "LPs\\vn_license_plate_235.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.13443052768707275,
+      "bbox": [
+        587,
+        536,
+        607,
+        572
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_236.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.13239097595214844,
+      "bbox": [
+        457,
+        597,
+        488,
+        636
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_237.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.12884794175624847,
+      "bbox": [
+        657,
+        1124,
+        679,
+        1151
+      ],
+      "crop_path": "LPs\\vn_license_plate_239.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.12699083983898163,
+      "bbox": [
+        1133,
+        1009,
+        1151,
+        1024
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_240.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.12045373767614365,
+      "bbox": [
+        789,
+        523,
+        813,
+        556
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_241.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.11731438338756561,
+      "bbox": [
+        973,
+        836,
+        994,
+        856
+      ],
+      "crop_path": "LPs\\vn_license_plate_242.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.11692456156015396,
+      "bbox": [
+        1210,
+        716,
+        1247,
+        779
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_243.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.11547132581472397,
+      "bbox": [
+        827,
+        653,
+        839,
+        660
+      ],
+      "crop_path": "LPs\\vn_license_plate_245.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.11438034474849701,
+      "bbox": [
+        590,
+        568,
+        607,
+        596
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_247.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.11307037621736526,
+      "bbox": [
+        1096,
+        790,
+        1116,
+        807
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_248.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.10888948291540146,
+      "bbox": [
+        416,
+        627,
+        423,
+        635
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_249.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.10540253669023514,
+      "bbox": [
+        594,
+        557,
+        604,
+        566
+      ],
+      "crop_path": "Vehicle\\vn_vehicle_251.jpg",
+      "detection_type": "vehicle"
+    }
+  ]
+}
