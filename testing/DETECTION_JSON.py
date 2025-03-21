@@ -7,6 +7,7 @@ import shutil  # for removing directories
 import json  # for JSON output
 from typing import List
 import cv2
+import argparse
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -110,22 +111,37 @@ class Detection:
         return y
 
 
-def detect_and_export_json(image_path):
+def detect_and_export_json(image_path, weights_path="object.pt", img_size=1280, device="cpu", conf_thres=0.1, iou_thres=0.5):
     """
     Processes an image (from its path) to run detections,
     saves cropped regions, and returns a JSON string containing detection details.
     """
+    # Create output directories if they don't exist
+    os.makedirs("out", exist_ok=True)
+    os.makedirs("LPs", exist_ok=True)
+    os.makedirs("Vehicle", exist_ok=True)
+
+    # Initialize detector with the provided parameters
+    detector = Detection(
+        size=(img_size, img_size),
+        weights_path=weights_path,
+        device=device,
+        iou_thres=iou_thres,
+        conf_thres=conf_thres,
+    )
+    
+    # Read the image
     image = cv2.imread(image_path)
     if image is None:
         return json.dumps({"error": f"Could not load image: {image_path}"})
 
-    detections, resized_img = obj_detector.detect(image.copy())
+    # Run detection
+    detections, resized_img = detector.detect(image.copy())
     output_img = resized_img.copy()
 
     results_list = []  # List to store detection details
 
     for idx, det in enumerate(detections):
-        # print(det)
         label, conf, box = det
         if label.lower() == "person":
             continue
