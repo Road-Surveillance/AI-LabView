@@ -8,7 +8,7 @@ This Python code implements a detection pipeline based on a YOLOv5 model to dete
  
 > [!CAUTION]
 > Please Use **Python 3.9** !
- 
+
 1. **Virtual Environement**
    ```bash
    python -m venv venv
