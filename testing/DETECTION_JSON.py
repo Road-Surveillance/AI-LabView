@@ -8,6 +8,9 @@ import json  # for JSON output
 from typing import List
 import cv2
 import argparse
+import tensorflow as tf
+from PIL import Image
+
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -110,8 +113,31 @@ class Detection:
         y[3] = x[3] - x[1]  # height
         return y
 
+color_model = tf.keras.models.load_model("../Car_Color_Detection.keras")
 
-def detect_and_export_json(image_path, detector):
+class_labels = ["beige", "black", "blue", "brown", "gold", "green", "grey",
+                "orange", "pink", "purple", "red", "silver", "tan", "white", "yellow"]
+
+
+def detect_car_color(cropped_image_path):
+    try:
+        img = Image.open(cropped_image_path)
+        img = img.resize((128, 128))
+        img_array = np.array(img) / 255.0
+        img_array = np.expand_dims(img_array, axis=0)
+
+        # Predict
+        predictions = color_model.predict(img_array)
+        predicted_class = np.argmax(predictions)
+
+        return class_labels[predicted_class] if predicted_class < len(class_labels) else "Unknown"
+    except Exception as e:
+        print(f"Error detecting color: {e}")
+        return "Unknown"
+    
+
+
+def detect_and_export_json(image_path,weights_path="object.pt", img_size=1280, device="cpu", conf_thres=0.1,iou_thres=0.5):
     """
     Processes an image (from its path) to run detections,
     saves cropped regions, and returns a JSON string containing detection details.
@@ -121,8 +147,17 @@ def detect_and_export_json(image_path, detector):
     os.makedirs("LPs", exist_ok=True)
     os.makedirs("Vehicle", exist_ok=True)
 
-    
-    
+
+    # Initialize detector with the provided parameters
+    detector = Detection(
+        size=(img_size, img_size),
+        weights_path=weights_path,
+        device=device,
+        iou_thres=iou_thres,
+        conf_thres=conf_thres,
+    )
+
+
     # Read the image
     image = cv2.imread(image_path)
     if image is None:
@@ -161,10 +196,11 @@ def detect_and_export_json(image_path, detector):
 
         crop_filename = os.path.join(
             crop_folder,
-            f"{os.path.splitext(os.path.basename(image_path))[0]}_{det_type}_{idx}.jpg",
+            f"{os.path.splitext(os.path.basename(image_path))[0]}{det_type}{idx}.jpg",
         )
         cv2.imwrite(crop_filename, crop_img)
         print(f"Saved {det_type} crop to {crop_filename}")
+        detected_color = detect_car_color(crop_filename) if det_type == "vehicle" else None
 
         results_list.append(
             {
@@ -173,6 +209,7 @@ def detect_and_export_json(image_path, detector):
                 "bbox": [x1, y1, x2, y2],
                 "crop_path": crop_filename,
                 "detection_type": det_type,
+                "vehicle_color": detected_color,
             }
         )
 
