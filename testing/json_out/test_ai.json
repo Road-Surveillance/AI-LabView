@@ -1,0 +1,389 @@
+{
+  "annotated_image": "out\\test_ai.jpg",
+  "detections": [
+    {
+      "label": "car",
+      "confidence": 0.9661726951599121,
+      "bbox": [
+        1014,
+        633,
+        1207,
+        810
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_0.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.964250922203064,
+      "bbox": [
+        705,
+        767,
+        918,
+        1002
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_1.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9591439962387085,
+      "bbox": [
+        719,
+        544,
+        869,
+        679
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_2.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9580569267272949,
+      "bbox": [
+        140,
+        537,
+        281,
+        668
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_3.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9531451463699341,
+      "bbox": [
+        41,
+        743,
+        245,
+        977
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_4.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9494468569755554,
+      "bbox": [
+        427,
+        718,
+        616,
+        941
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_5.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9464221000671387,
+      "bbox": [
+        455,
+        344,
+        534,
+        415
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_6.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9386254549026489,
+      "bbox": [
+        266,
+        368,
+        352,
+        444
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_7.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "motorbike",
+      "confidence": 0.9369795918464661,
+      "bbox": [
+        600,
+        376,
+        637,
+        430
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_8.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9335874319076538,
+      "bbox": [
+        428,
+        265,
+        479,
+        317
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_9.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.932582437992096,
+      "bbox": [
+        722,
+        328,
+        798,
+        388
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_10.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9291774034500122,
+      "bbox": [
+        617,
+        232,
+        658,
+        263
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_11.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9286900162696838,
+      "bbox": [
+        654,
+        251,
+        706,
+        298
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_12.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9276927709579468,
+      "bbox": [
+        459,
+        229,
+        505,
+        271
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_13.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9219784140586853,
+      "bbox": [
+        399,
+        212,
+        434,
+        241
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_14.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.918698251247406,
+      "bbox": [
+        591,
+        194,
+        626,
+        226
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_15.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9131497740745544,
+      "bbox": [
+        540,
+        302,
+        603,
+        354
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_17.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.9080777764320374,
+      "bbox": [
+        546,
+        259,
+        595,
+        303
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_18.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.8713992238044739,
+      "bbox": [
+        424,
+        192,
+        457,
+        218
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_19.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "truck",
+      "confidence": 0.8644593358039856,
+      "bbox": [
+        539,
+        207,
+        594,
+        271
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_20.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.7748750448226929,
+      "bbox": [
+        482,
+        212,
+        514,
+        241
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_21.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.6854379773139954,
+      "bbox": [
+        487,
+        185,
+        515,
+        211
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_22.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.636924684047699,
+      "bbox": [
+        536,
+        176,
+        563,
+        204
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_23.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "face",
+      "confidence": 0.5334984660148621,
+      "bbox": [
+        613,
+        367,
+        622,
+        374
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_25.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "rectangle license plate",
+      "confidence": 0.2537616789340973,
+      "bbox": [
+        410,
+        231,
+        418,
+        235
+      ],
+      "crop_path": "LPs\\test_ai_license_plate_26.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "face",
+      "confidence": 0.23472747206687927,
+      "bbox": [
+        389,
+        197,
+        393,
+        200
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_27.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "car",
+      "confidence": 0.19848477840423584,
+      "bbox": [
+        591,
+        185,
+        620,
+        212
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_28.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "rectangle license plate",
+      "confidence": 0.1731981784105301,
+      "bbox": [
+        678,
+        284,
+        691,
+        289
+      ],
+      "crop_path": "LPs\\test_ai_license_plate_29.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "square license plate",
+      "confidence": 0.1686849147081375,
+      "bbox": [
+        547,
+        195,
+        554,
+        198
+      ],
+      "crop_path": "LPs\\test_ai_license_plate_30.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "car",
+      "confidence": 0.1589745134115219,
+      "bbox": [
+        439,
+        176,
+        466,
+        196
+      ],
+      "crop_path": "Vehicle\\test_ai_vehicle_31.jpg",
+      "detection_type": "vehicle"
+    },
+    {
+      "label": "rectangle license plate",
+      "confidence": 0.11671756953001022,
+      "bbox": [
+        433,
+        209,
+        442,
+        212
+      ],
+      "crop_path": "LPs\\test_ai_license_plate_32.jpg",
+      "detection_type": "license_plate"
+    },
+    {
+      "label": "rectangle license plate",
+      "confidence": 0.10876570641994476,
+      "bbox": [
+        435,
+        207,
+        441,
+        211
+      ],
+      "crop_path": "LPs\\test_ai_license_plate_33.jpg",
+      "detection_type": "license_plate"
+    }
+  ]
+}

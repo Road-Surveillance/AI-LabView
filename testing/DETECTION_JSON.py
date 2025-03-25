@@ -147,6 +147,7 @@ def detect_and_export_json(image_path,weights_path="object.pt", img_size=1280, d
     os.makedirs("LPs", exist_ok=True)
     os.makedirs("Vehicle", exist_ok=True)
 
+
     # Initialize detector with the provided parameters
     detector = Detection(
         size=(img_size, img_size),
@@ -256,51 +257,39 @@ def parse_opt():
 
 
 if __name__ == "__main__":
-    import argparse
+    # At launch: remove and recreate output directories once
+    for folder in ["LPs", "Vehicle", "out", "json_out"]:
+        if os.path.exists(folder):
+            shutil.rmtree(folder)
+        os.makedirs(folder, exist_ok=True)
 
-    parser = argparse.ArgumentParser(description="Run object detection on an image.")
-    parser.add_argument(
-        "--image", type=str, required=True, help="Path to the image for detection"
-    )
-    parser.add_argument(
-        "--weights",
-        type=str,
-        default="object.pt",
-        help="Model weights file path",
-    )
-    parser.add_argument(
-        "--imgsz", type=int, default=1280, help="Image size for inference"
-    )
-    parser.add_argument(
-        "--device", type=str, default="cpu", help="Computation device (cpu/cuda)"
-    )
-    parser.add_argument(
-        "--conf-thres", type=float, default=0.1, help="Confidence threshold"
-    )
-    parser.add_argument(
-        "--iou-thres", type=float, default=0.5, help="NMS IoU threshold"
-    )
+    opt = parse_opt()
+    obj_detector = Detection(size=tuple(opt.imgsz), weights_path="object.pt", device=opt.device, iou_thres=opt.iou_thres, conf_thres=opt.conf_thres)
 
-    args = parser.parse_args()
-
-    # Initialisation du détecteur
-    obj_detector = Detection(
-        size=(args.imgsz, args.imgsz),
-        weights_path=args.weights,
-        device=args.device,
-        iou_thres=args.iou_thres,
-        conf_thres=args.conf_thres,
-    )
-
-    # Exécuter la détection sur l'image
-    json_output = detect_and_export_json(args.image)
-    print(json_output)
-
-    # Sauvegarder le JSON
-    json_filename = f"json_out/{os.path.splitext(os.path.basename(args.image))[0]}.json"
-    os.makedirs("json_out", exist_ok=True)
-    with open(json_filename, "w") as jf:
-        jf.write(json_output)
-
-    print(f"Saved JSON output to {json_filename}")
+    # Process a single image or all images in a directory
+    if os.path.isdir(opt.source):
+        img_names = os.listdir(opt.source)
+        for img_name in img_names:
+            img_path = os.path.join(opt.source, img_name)
+            json_output = detect_and_export_json(img_path, obj_detector)
+            print("JSON output for", img_path)
+            print(json_output)
+            # Save JSON output to a file in json_out folder
+            json_filename = os.path.join(
+                "json_out", f"{os.path.splitext(img_name)[0]}.json"
+            )
+            with open(json_filename, "w") as jf:
+                jf.write(json_output)
+            print(f"Saved JSON output to {json_filename}")
+    else:
+        json_output = detect_and_export_json(opt.source, obj_detector)
+        print("JSON output for", opt.source)
+        print(json_output)
+        base_name = os.path.basename(opt.source)
+        json_filename = os.path.join(
+            "json_out", f"{os.path.splitext(base_name)[0]}.json"
+        )
+        with open(json_filename, "w") as jf:
+            jf.write(json_output)
+        print(f"Saved JSON output to {json_filename}")
 
